@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to bottom right, #00b09b, #96c93d);
+    background-attachment: fixed;
+}
+#main {
+    width: 80vw;
+    height: 90vh;
+    position: fixed;
+    left: 10vw;
+    top: 5vh;
+    background-color: white;
+    text-align: center;
+    font-family: Helvetica;
+    border-radius: 5vw;
+}
+#card1 {
+    height: 15vw;
+    width: 15vw;
+    border-style: solid;
+    border-radius: 1vw;
+    position: fixed;
+    left: 25vw;
+    top: 28vh;
+    text-align: center;
+    background-color: #cc3232;
+}
+#card2 {
+    height: 15vw;
+    width: 15vw;
+    border-style: solid;
+    border-radius: 1vw;
+    position: fixed;
+    left: 42.5vw;
+    top: 28vh;
+    text-align: center;
+    background-color: #e7b416;
+}
+#card3 {
+    height: 15vw;
+    width: 15vw;
+    border-style: solid;
+    border-radius: 1vw;
+    position: fixed;
+    left: 60vw;
+    top: 28vh;
+    text-align: center;
+    background-color: #2dc937;
+}
+#highestsurvey, #favletter, #hrmins {
+    position: relative;
+    top: 17vw;
+}
+#butn {
+    text-align: center;
+    position: relative;
+    top: 17vw;
+    height: 5vw;
+    width: 15vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    background-color: #CCCCCC;
+}
+hr {
+    border-style: solid;
+    border-color: black;
+}
